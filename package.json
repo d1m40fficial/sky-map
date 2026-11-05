@@ -1,0 +1,17 @@
+{
+  "name": "sky-map",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "An observatory-grade panorama of the night sky: stars, constellations, planets, the Moon and the Milky Way.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "vite": "^7.1.0"
+  }
+}

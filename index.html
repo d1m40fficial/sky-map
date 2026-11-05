@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#06080b" />
+    <title>Orbita — карта звёздного неба</title>
+    <meta
+      name="description"
+      content="Панорама ночного неба для любой точки Земли: звёзды, созвездия, планеты, Луна и Млечный Путь. Астрономия в браузере."
+    />
+    <meta property="og:title" content="Orbita" />
+    <meta property="og:description" content="Панорама ночного неба для любой точки Земли." />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="masthead">
+      <a class="brand" href="./">Orbita<span>·</span></a>
+      <p class="masthead__note">карта звёздного неба · эфемериды в браузере</p>
+      <a class="masthead__link" href="https://github.com/d1m40fficial/sky-map" target="_blank" rel="noopener">GitHub ↗</a>
+    </header>
+    <main class="shell" id="app"></main>
+    <footer class="colophon">
+      <span>J2000 · alt/az · звёздное время</span>
+      <span>приблизительные эфемериды · не для навигации</span>
+    </footer>
+    <div id="toasts" class="toasts" aria-live="polite"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
