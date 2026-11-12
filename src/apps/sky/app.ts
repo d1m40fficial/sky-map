@@ -595,7 +595,7 @@ export function mount(root: HTMLElement): () => void {
     }
 
     if (showLines) {
-      ctx.font = view === 'panorama' ? '500 13px "Fraunces", Georgia, serif' : '500 10px "IBM Plex Mono", monospace';
+      ctx.font = view === 'panorama' ? '500 13px "Literata", Georgia, serif' : '500 10px "IBM Plex Mono", monospace';
       ctx.textAlign = 'center';
       ctx.fillStyle = labelColor;
       for (const constellation of constellations) {

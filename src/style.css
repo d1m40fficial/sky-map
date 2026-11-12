@@ -20,7 +20,7 @@
   --radius-sm: 2px;
   --radius-xl: 2px;
   --font-body: 'Inter', system-ui, sans-serif;
-  --font-display: 'Fraunces', Georgia, serif;
+  --font-display: 'Literata', Georgia, serif;
   --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
   --shadow-sm: none;
   --shadow-lg: none;
@@ -54,8 +54,8 @@ body {
 .brand {
   font-family: var(--font-display);
   font-size: clamp(1.6rem, 3vw, 2.3rem);
-  font-weight: 300;
-  letter-spacing: -0.03em;
+  font-weight: 400;
+  letter-spacing: -0.01em;
   line-height: 1;
 }
 .brand span {
@@ -245,8 +245,8 @@ body {
 .sky-place b {
   font-family: var(--font-display);
   font-size: clamp(1.4rem, 2.4vw, 2rem);
-  font-weight: 300;
-  letter-spacing: -0.02em;
+  font-weight: 400;
+  letter-spacing: -0.01em;
   color: var(--text);
 }
 .sky-place .wx-flag {
@@ -281,9 +281,9 @@ body {
 .sky-clock b {
   font-family: var(--font-display);
   font-size: clamp(1.8rem, 4.5vw, 3.2rem);
-  font-weight: 300;
+  font-weight: 400;
   line-height: 0.9;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.02em;
   color: var(--text);
   text-shadow: 0 2px 24px rgba(0, 0, 0, 0.7);
 }
